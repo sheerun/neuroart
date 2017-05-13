@@ -16,7 +16,8 @@
   },
   "scripts": {
     "start": "serve ./ --single",
-    "build": "gulp"
+    "build": "gulp",
+    "deploy": "now --static"
   },
   "dependencies": {
     "serve": "latest"
